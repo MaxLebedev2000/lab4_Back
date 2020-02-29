@@ -14,8 +14,8 @@ public class HeliosDB {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("oracle.jdbc.driver.OracleDriver");
         dataSourceBuilder.url("jdbc:oracle:thin:@localhost:1521:orbis");
-        dataSourceBuilder.username("s263919");
-        dataSourceBuilder.password("hux779");
+        dataSourceBuilder.username("******");
+        dataSourceBuilder.password("******");
         return dataSourceBuilder.build();
     }
 
